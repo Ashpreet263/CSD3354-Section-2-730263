@@ -8,11 +8,12 @@ using System.Threading.Tasks;
 
 namespace Marksheet1
 {
-    class Program
+    class Grader
     {
         static void Main(string[] args)
         {
             int r, m1, m2, m3, t;
+
             float p;
             string n;
             Console.WriteLine("Enter Roll Number :");
@@ -29,6 +30,8 @@ namespace Marksheet1
             p = t / 3.0f;
             Console.WriteLine("Total : " + t);
             Console.WriteLine("Percentage : " + p);
+
+
             if (p >= 35 && p < 50)
             {
                 Console.WriteLine("Grade is C");
@@ -45,8 +48,49 @@ namespace Marksheet1
             {
                 Console.WriteLine("Grade is A+");
             }
+            Console.WriteLine();
             Console.ReadLine();
         }
+            class Program
+        {
+            static void Main()
+            {
+                List<String> list = new List<string>();
+                // add fruits
+                list.Add("apple");
+                list.Add("banana");
+                list.Add("Orange");
+
+                
+                    System.Console.WriteLine(list);
+                }
+            Random r = new Random();
+            String[] a = new String { "Alex", "Roy", "Peter", "honey", "John" };
+            int num1 = r.Next(0.4);
+            int num2 = r.Next(0.4);
+            int num3 = r.Next(0.4);
+            int num4 = r.Next(0.4);
+            int num5 = r.Next(0.4);
+
+            List<string> student = new LIst<string>();
+            student.Add(a[num1]);
+student.Add(a[num2]);
+student.Add(a[num3]);
+student.Add(a[num4]);
+student.Add(a[num5]);
+
+String[] a = new String { "C#", "Java", "Python" };
+            List<string> program = new List<string>();
+            program.Add(a[r.Next(0, 3)]);
+program.Add(a[r.Next(0, 3)]);
+program.Add(a[r.Next(0, 3)]);
+
+            }
     }
-}
-]
+
+
+    }
+    
+
+
+
