@@ -79,7 +79,7 @@ student.Add(a[num3]);
 student.Add(a[num4]);
 student.Add(a[num5]);
 
-String[] a = new String { "C#", "Java", "Python" };
+String[] a = new String { "C#", "730263", "Test" };
             List<string> program = new List<string>();
             program.Add(a[r.Next(0, 3)]);
 program.Add(a[r.Next(0, 3)]);
